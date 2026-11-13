@@ -1,0 +1,12 @@
+.venv/
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+data/
+runs/
+runs_hw2/
+*.cache
+*.onnx
+!**/artifacts/*.onnx
+yolo*.pt
+rtdetr*.pt

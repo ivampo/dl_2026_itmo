@@ -9,5 +9,5 @@ matplotlib>=3.7
 pillow>=10.0
 pyyaml>=6.0
 # бонус 6.4 (экспорт в ONNX): ultralytics доставит onnx сам при export, но надежнее поставить заранее
-# onnx>=1.16
-# onnxruntime>=1.18
+onnx>=1.16,<2
+onnxruntime>=1.18
